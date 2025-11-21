@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "ban_spawn_ender_dragon",
+  "version": "${version}",
+  "name": "Ban Spawn Ender Dragon",
+  "description": "A simple mod that prevents the Ender Dragon from respawning",
+  "authors": [
+    "XiaoPao45"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ban_spawn_ender_dragon/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.ban_spawn_ender_dragon.BanEnderDragonMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
